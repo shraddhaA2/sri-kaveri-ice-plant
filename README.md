@@ -2,7 +2,6 @@
 
 <div align="center">
 
-<img src="https://ai.google.dev/static/site-assets/images/share-ais-513315318.png" width="800" alt="Sri Kaveri Ice Plant Website"/>
 
 ### A modern commercial website for Sri Kaveri Ice Plant
 
