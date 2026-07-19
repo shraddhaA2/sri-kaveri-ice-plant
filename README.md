@@ -84,3 +84,76 @@ This is a real-world business website developed and deployed for commercial use.
 ---
 
 # 📂 Project Structure
+sri-kaveri-ice-plant/
+│
+├── public/
+│ └── logo.png
+│
+├── src/
+│ │
+│ ├── components/
+│ │ │
+│ │ ├── About.tsx
+│ │ │ └── Company information section
+│ │ │
+│ │ ├── Contact.tsx
+│ │ │ └── Contact and enquiry section
+│ │ │
+│ │ ├── Footer.tsx
+│ │ │ └── Website footer component
+│ │ │
+│ │ ├── Header.tsx
+│ │ │ └── Navigation header
+│ │ │
+│ │ ├── Hero.tsx
+│ │ │ └── Landing page hero section
+│ │ │
+│ │ ├── Industries.tsx
+│ │ │ └── Industries served section
+│ │ │
+│ │ ├── Logo.tsx
+│ │ │ └── Brand logo component
+│ │ │
+│ │ ├── Products.tsx
+│ │ │ └── Product showcase section
+│ │ │
+│ │ ├── Quality.tsx
+│ │ └── Quality standards section
+│ │
+│ ├── App.tsx
+│ │ └── Main application component
+│ │
+│ ├── main.tsx
+│ │ └── Application entry point
+│ │
+│ ├── data.ts
+│ │ └── Website data and content
+│ │
+│ ├── translations.ts
+│ │ └── Multi-language content
+│ │
+│ ├── types.ts
+│ │ └── TypeScript type definitions
+│ │
+│ └── index.css
+│ └── Global styling
+│
+├── public/
+│
+├── .env.example
+│
+├── .gitignore
+│
+├── index.html
+│
+├── metadata.json
+│
+├── package.json
+│
+├── package-lock.json
+│
+├── tsconfig.json
+│
+├── vite.config.ts
+│
+└── README.md
