@@ -14,8 +14,28 @@ export default function App() {
   // Localized language state ('en' | 'kn')
   const [lang, setLang] = useState<Language>('en');
 
+  // Light / dark theme state
+  const [theme, setTheme] = useState<'light' | 'dark'>('light');
+
   // Preselected product state to pass from Products section trigger to Contact form
   const [selectedProductType, setSelectedProductType] = useState<string>('');
+
+  useEffect(() => {
+    const savedTheme = window.localStorage.getItem('theme');
+    const initialTheme =
+      savedTheme === 'dark' || savedTheme === 'light'
+        ? savedTheme
+        : window.matchMedia('(prefers-color-scheme: dark)').matches
+        ? 'dark'
+        : 'light';
+    setTheme(initialTheme);
+  }, []);
+
+  useEffect(() => {
+    document.documentElement.classList.toggle('dark', theme === 'dark');
+    document.documentElement.dataset.theme = theme;
+    window.localStorage.setItem('theme', theme);
+  }, [theme]);
 
   useEffect(() => {
     document.documentElement.lang = lang;
@@ -56,7 +76,7 @@ export default function App() {
     <div className="min-h-screen bg-background text-on-surface font-sans selection:bg-secondary-container selection:text-primary">
       
       {/* 1. Header Navigation */}
-      <Header lang={lang} setLang={setLang} onEnquiryClick={handleTopEnquiryClick} />
+      <Header lang={lang} setLang={setLang} theme={theme} setTheme={setTheme} onEnquiryClick={handleTopEnquiryClick} />
   
       <main>
         {/* 2. Home Hero Zone with Corporate Trust Pillars */}
