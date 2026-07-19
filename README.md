@@ -2,68 +2,122 @@
 
 <div align="center">
 
+## A modern commercial website for Sri Kaveri Ice Plant
 
-### A modern commercial website for Sri Kaveri Ice Plant
-
-🌐 **Live Website:** https://candid-queijadas-3e772a.netlify.app/
-
-## 🚀 Deployment
-
-The application is deployed using Netlify with automated production builds.
-
-Deployment Platform:
-- Netlify
-
-Build Tool:
-- Vite
+🌐 **Live Website:**  
+https://candid-queijadas-3e772a.netlify.app/
 
 </div>
 
 ---
 
-## 📌 Project Overview
+# 🚀 Deployment
+
+The application is deployed using Netlify with automated production builds.
+
+| Platform | Tool |
+|---|---|
+| Deployment | Netlify |
+| Build Tool | Vite |
+| Version Control | Git & GitHub |
+
+---
+
+# 📌 Project Overview
 
 **Sri Kaveri Ice Plant Website** is a modern, responsive commercial website developed for an industrial ice manufacturing business.
 
-The website provides a professional digital presence for the company by showcasing its products, manufacturing capabilities, quality standards, industries served, and customer contact channels.
+The website provides a professional digital presence for the company by showcasing:
 
-The project focuses on creating a premium industrial brand experience with a clean UI, smooth animations, responsive design, and easy customer communication.
+- Products
+- Manufacturing capabilities
+- Quality standards
+- Industries served
+- Customer enquiry channels
 
-This is a real-world business website developed and deployed for commercial use.
+The project focuses on creating a premium industrial brand experience with:
+
+- Clean user interface
+- Smooth animations
+- Responsive layouts
+- Easy customer communication
+
+This project represents a real-world commercial website developed and deployed for an industrial business.
+
+---
+
+# 🎯 Business Objective
+
+The objective of this project was to build a professional digital presence for Sri Kaveri Ice Plant, allowing customers to understand the company's products, quality standards, and services while providing an easy communication channel for business enquiries.
+
+The website was designed to transform traditional offline marketing into a modern online presence.
 
 ---
 
 # ✨ Features
 
 ## 🎨 Modern UI/UX
+
 - Premium industrial-themed design
 - Clean and professional layout
 - Smooth animations and transitions
 - Responsive design for all screen sizes
+- User-friendly navigation
+
+---
 
 ## 🏭 Business Showcase
-- Company introduction
-- Product display section
+
+- Company introduction section
+- Product showcase
 - Quality assurance information
 - Industries served section
 - Brand-focused presentation
 
+---
+
 ## 📱 Customer Experience
+
 - Mobile-friendly interface
 - Easy navigation
 - WhatsApp enquiry integration
 - Contact section for customer communication
 
+---
+
 ## ⚡ Performance
+
 - Optimized production build
 - Fast loading performance
 - Component-based architecture
 - SEO-friendly structure
 
+---
+
 ## 🌐 Additional Features
+
 - Multi-language support
 - Reusable React components
+- Type-safe development using TypeScript
 - Modern frontend architecture
+
+---
+
+# 📸 Screenshots
+
+## Desktop View
+
+<img src="https://github.com/user-attachments/assets/7bd4aca7-7c5e-4503-9f25-6499d164dd7b" width="100%" />
+
+---
+
+## Products Section
+
+<img src="https://github.com/user-attachments/assets/92fc80fc-bb9c-48da-a42b-ba5f796acee0" width="100%" />
+
+<img src="https://github.com/user-attachments/assets/650ef5dd-c0a8-4fe1-8d82-d6f5100f9d98" width="100%" />
+
+<img src="https://github.com/user-attachments/assets/c49dbc93-01e4-4191-9698-5a06728c75bb" width="100%" />
 
 ---
 
@@ -74,11 +128,13 @@ This is a real-world business website developed and deployed for commercial use.
 | Technology | Purpose |
 |---|---|
 | React.js | UI development |
-| TypeScript | Type-safe JavaScript |
+| TypeScript | Type-safe JavaScript development |
 | Vite | Development and build tool |
 | HTML5 | Page structure |
 | CSS3 | Styling and animations |
 | JavaScript | Client-side functionality |
+
+---
 
 ## Tools & Deployment
 
@@ -92,7 +148,31 @@ This is a real-world business website developed and deployed for commercial use.
 
 ---
 
-# 📂 Project Structure
+# 👨‍💻 Role & Contribution
+
+**Role:** Frontend Developer
+
+Responsibilities:
+
+- Designed and developed the complete website UI.
+- Created reusable React components.
+- Implemented responsive layouts for desktop, tablet, and mobile devices.
+- Developed multilingual content architecture.
+- Integrated WhatsApp enquiry functionality.
+- Managed production build and deployment.
+
+---
+
+# 🏗️ Development Highlights
+
+- Developed a complete industrial business website from scratch.
+- Built modular React components for better maintainability.
+- Implemented responsive design principles.
+- Created reusable data-driven content structures.
+- Optimized the website using Vite production builds.
+- Delivered a production-ready commercial website.
+
+---
 
 # 📂 Project Structure
 
@@ -106,49 +186,21 @@ sri-kaveri-ice-plant/
 │   │
 │   ├── components/
 │   │   ├── About.tsx
-│   │   │   └── Company information section
-│   │   │
 │   │   ├── Contact.tsx
-│   │   │   └── Contact and enquiry section
-│   │   │
 │   │   ├── Footer.tsx
-│   │   │   └── Website footer component
-│   │   │
 │   │   ├── Header.tsx
-│   │   │   └── Navigation header
-│   │   │
 │   │   ├── Hero.tsx
-│   │   │   └── Landing page hero section
-│   │   │
 │   │   ├── Industries.tsx
-│   │   │   └── Industries served section
-│   │   │
 │   │   ├── Logo.tsx
-│   │   │   └── Brand logo component
-│   │   │
 │   │   ├── Products.tsx
-│   │   │   └── Product showcase section
-│   │   │
 │   │   └── Quality.tsx
-│   │       └── Quality standards section
 │   │
 │   ├── App.tsx
-│   │   └── Main application component
-│   │
 │   ├── main.tsx
-│   │   └── Application entry point
-│   │
 │   ├── data.ts
-│   │   └── Website data and content
-│   │
 │   ├── translations.ts
-│   │   └── Multi-language content
-│   │
 │   ├── types.ts
-│   │   └── TypeScript type definitions
-│   │
 │   └── index.css
-│       └── Global styling
 │
 ├── .env.example
 ├── .gitignore
@@ -161,31 +213,29 @@ sri-kaveri-ice-plant/
 └── README.md
 ```
 
-## 📸 Screenshots
+---
 
-### Desktop View
-![Homepage](<img width="1912" height="912" alt="Screenshot 2026-07-19 212000" src="https://github.com/user-attachments/assets/7bd4aca7-7c5e-4503-9f25-6499d164dd7b" />
-)
+# 🔮 Future Enhancements
 
-### Products Section
-![Products](<img width="1880" height="906" alt="image" src="https://github.com/user-attachments/assets/92fc80fc-bb9c-48da-a42b-ba5f796acee0" />
-)(<img width="1882" height="902" alt="image" src="https://github.com/user-attachments/assets/650ef5dd-c0a8-4fe1-8d82-d6f5100f9d98" />
-)(<img width="1872" height="635" alt="image" src="https://github.com/user-attachments/assets/c49dbc93-01e4-4191-9698-5a06728c75bb" />
-)
+Planned improvements:
 
-## 🎯 Business Objective
+- Online order management system
+- Admin dashboard for product updates
+- Customer enquiry management system
+- Google Maps integration
+- Customer testimonials section
+- Product catalogue download option
 
-The objective of this project was to build a professional digital presence for Sri Kaveri Ice Plant, allowing customers to understand the company's products, quality standards, and services while providing an easy communication channel for business enquiries.
+---
 
-The website was designed to replace traditional offline marketing with a modern online presence.
+# 📄 License
 
+This project was developed for **Sri Kaveri Ice Plant** for commercial use.
 
-## 🏗️ Development Highlights
+---
 
-- Designed and developed a complete industrial business website from scratch.
-- Created reusable React components for better maintainability.
-- Implemented responsive layouts for desktop, tablet, and mobile devices.
-- Integrated WhatsApp enquiry functionality for direct customer communication.
-- Added multilingual content support using reusable translation structures.
-- Optimized website performance using Vite production build.
+<div align="center">
 
+⭐ Developed with React.js, TypeScript & Vite
+
+</div>
