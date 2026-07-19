@@ -1,6 +1,7 @@
 import React from 'react';
 import { Target, Shield, Cpu, Award, Check } from 'lucide-react';
 import { Language, translations } from '../translations';
+import { GOOGLE_MAPS_URL } from '../data';
 
 interface AboutProps {
   lang: Language;
@@ -84,13 +85,20 @@ export default function About({ lang }: AboutProps) {
 
           {/* Side visual mockup card */}
           <div className="lg:col-span-5 relative">
-            <div className="aspect-[4/5] rounded-xl overflow-hidden shadow-lg border border-outline-variant/40">
-              <img 
-                src="https://lh3.googleusercontent.com/aida-public/AB6AXuDW76MYaviJ82QdOjBNs4yDwrL9cz6WU4_Lq08Jt2WCpvpVXIyDAu609elyyqf8gGnm2YsXPCpWswwsWhCE1vn5asuJBlPVnKC3-SAXd6oIkrVY-2p_C6eUP7TnY4RQ3la6mebQ9ZqkaandVMPwtBeQknbM2eAOHPvJvpBMwYQ_PlXE1J2iHbTarGX7GLiX7nd7cU3_AJRWFODlV_FOKDMdhaMvz3VnIjkO8ob4ilX20ACXgkH3mbf8" 
-                alt="Automated production floor inside Sri Kaveri Ice Plant" 
-                className="w-full h-full object-cover transition-transform duration-500 hover:scale-102"
-              />
-            </div>
+            <a
+              href={GOOGLE_MAPS_URL}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="block rounded-xl overflow-hidden shadow-lg border border-outline-variant/40 transition-transform duration-300 hover:-translate-y-1 hover:shadow-xl"
+            >
+              <div className="aspect-[4/5] w-full">
+                <img 
+                  src="https://lh3.googleusercontent.com/aida-public/AB6AXuDW76MYaviJ82QdOjBNs4yDwrL9cz6WU4_Lq08Jt2WCpvpVXIyDAu609elyyqf8gGnm2YsXPCpWswwsWhCE1vn5asuJBlPVnKC3-SAXd6oIkrVY-2p_C6eUP7TnY4RQ3la6mebQ9ZqkaandVMPwtBeQknbM2eAOHPvJvpBMwYQ_PlXE1J2iHbTarGX7GLiX7nd7cU3_AJRWFODlV_FOKDMdhaMvz3VnIjkO8ob4ilX20ACXgkH3mbf8" 
+                  alt="Automated production floor inside Sri Kaveri Ice Plant" 
+                  className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-102"
+                />
+              </div>
+            </a>
             
             {/* Overlay spec badge */}
             <div className="absolute -bottom-6 -left-6 hidden sm:block max-w-xs bg-primary p-6 rounded-lg text-white shadow-xl border border-slate-800">
