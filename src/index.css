@@ -35,6 +35,41 @@
   --font-display: var(--font-tiro);
 }
 
+:root.dark {
+  --color-background: #090c12;
+  --color-surface: #111827;
+  --color-surface-container: #111827;
+  --color-surface-container-low: #0f172a;
+  --color-surface-container-lowest: #020617;
+  --color-on-surface: #e2e8f0;
+  --color-on-surface-variant: #94a3b8;
+  --color-outline: #475569;
+  --color-outline-variant: #64748b;
+  --color-primary: #93c5fd;
+  --color-primary-container: #1e293b;
+  --color-secondary: #60a5fa;
+  --color-secondary-container: #1e3a8a;
+  --color-secondary-fixed: #38bdf8;
+  --color-secondary-fixed-dim: #60a5fa;
+}
+
+html.dark body {
+  background-color: var(--color-background);
+  color: var(--color-on-surface);
+}
+
+html.dark [class*="bg-white"] {
+  background-color: #111827 !important;
+}
+
+html.dark [class*="border-white"] {
+  border-color: rgba(255,255,255,0.1) !important;
+}
+
+html.dark .text-black {
+  color: var(--color-on-surface) !important;
+}
+
 @layer base {
   body {
     @apply bg-background text-on-surface font-sans antialiased selection:bg-secondary-container selection:text-primary;

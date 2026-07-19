@@ -118,7 +118,7 @@ export default function Logo({ variant = 'full', className = '', height }: LogoP
       <img 
         src={LOGO_URL} 
         alt="Sri Kaveri Ice Plant" 
-        className="object-contain mix-blend-multiply max-h-full w-auto"
+        className="object-contain max-h-full w-auto"
         style={height ? { height } : undefined}
         referrerPolicy="no-referrer"
       />
