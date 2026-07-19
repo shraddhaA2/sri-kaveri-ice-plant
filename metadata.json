@@ -1,0 +1,6 @@
+{
+  "name": "Sri Kaveri Ice Plant",
+  "description": "Premium industrial ice manufacturer and supplier, providing high-density Block Ice, Tube Ice, Flake Ice, and custom cooling solutions with clinical purity.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

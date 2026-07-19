@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans:wght@300;400;500;600;700;800&family=Inter:wght@400;500;600;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Public Sans", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: "Inter", ui-monospace, monospace;
+
+  /* Premium Industrial Brand Colors */
+  --color-primary: #0B1E36;
+  --color-primary-container: #152C46;
+  --color-on-primary-container: #bae6fd;
+  --color-secondary: #0284c7;
+  --color-secondary-container: #bae6fd;
+  --color-secondary-fixed: #38bdf8;
+  --color-secondary-fixed-dim: #0ea5e9;
+  --color-background: #f8fafc;
+  --color-surface: #f8fafc;
+  --color-surface-container: #f1f5f9;
+  --color-surface-container-low: #f8fafc;
+  --color-surface-container-lowest: #ffffff;
+  --color-on-surface: #0f172a;
+  --color-on-surface-variant: #334155;
+  --color-outline: #64748b;
+  --color-outline-variant: #cbd5e1;
+
+  /* Custom Transitions & Accent Bar Heights */
+  --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+@layer base {
+  body {
+    @apply bg-background text-on-surface font-sans antialiased selection:bg-secondary-container selection:text-primary;
+  }
+}
