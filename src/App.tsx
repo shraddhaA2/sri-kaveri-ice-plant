@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import Header from './components/Header';
 import Hero from './components/Hero';
 import About from './components/About';
@@ -16,6 +16,10 @@ export default function App() {
 
   // Preselected product state to pass from Products section trigger to Contact form
   const [selectedProductType, setSelectedProductType] = useState<string>('');
+
+  useEffect(() => {
+    document.documentElement.lang = lang;
+  }, [lang]);
 
   // Scroll handler helper to trigger smooth scrolls
   const handleScrollToSection = (sectionId: string) => {
