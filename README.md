@@ -7,6 +7,16 @@
 
 🌐 **Live Website:** https://candid-queijadas-3e772a.netlify.app/
 
+## 🚀 Deployment
+
+The application is deployed using Netlify with automated production builds.
+
+Deployment Platform:
+- Netlify
+
+Build Tool:
+- Vite
+
 </div>
 
 ---
@@ -150,3 +160,32 @@ sri-kaveri-ice-plant/
 ├── vite.config.ts
 └── README.md
 ```
+
+## 📸 Screenshots
+
+### Desktop View
+![Homepage](<img width="1912" height="912" alt="Screenshot 2026-07-19 212000" src="https://github.com/user-attachments/assets/7bd4aca7-7c5e-4503-9f25-6499d164dd7b" />
+)
+
+### Products Section
+![Products](<img width="1880" height="906" alt="image" src="https://github.com/user-attachments/assets/92fc80fc-bb9c-48da-a42b-ba5f796acee0" />
+)(<img width="1882" height="902" alt="image" src="https://github.com/user-attachments/assets/650ef5dd-c0a8-4fe1-8d82-d6f5100f9d98" />
+)(<img width="1872" height="635" alt="image" src="https://github.com/user-attachments/assets/c49dbc93-01e4-4191-9698-5a06728c75bb" />
+)
+
+## 🎯 Business Objective
+
+The objective of this project was to build a professional digital presence for Sri Kaveri Ice Plant, allowing customers to understand the company's products, quality standards, and services while providing an easy communication channel for business enquiries.
+
+The website was designed to replace traditional offline marketing with a modern online presence.
+
+
+## 🏗️ Development Highlights
+
+- Designed and developed a complete industrial business website from scratch.
+- Created reusable React components for better maintainability.
+- Implemented responsive layouts for desktop, tablet, and mobile devices.
+- Integrated WhatsApp enquiry functionality for direct customer communication.
+- Added multilingual content support using reusable translation structures.
+- Optimized website performance using Vite production build.
+
