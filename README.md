@@ -4,9 +4,14 @@
 
 ## A modern commercial website for Sri Kaveri Ice Plant
 
-🌐 **Live Website:**  
+🌐 **Live Website:**
 https://candid-queijadas-3e772a.netlify.app/
+
+🚀 **Alternative Deployment:**
 https://sri-kaveri-ice-plant.onrender.com
+
+📦 **Source Code:**
+https://github.com/shraddhaA2/sri-kaveri-ice-plant
 
 </div>
 
@@ -14,15 +19,24 @@ https://sri-kaveri-ice-plant.onrender.com
 
 # 🚀 Deployment
 
-The application is deployed using Netlify with automated production builds.
+The application is deployed as a production-ready React application using **Netlify** and **Render**, with the source code maintained on GitHub.
 
-| Platform | Tool |
-|---|---|
-| Deployment | Netlify |
-| Build Tool | Vite |
-| Version Control | Git & GitHub |
+| Platform         | Purpose                                    |
+| ---------------- | ------------------------------------------ |
+| **Netlify**      | Primary production deployment              |
+| **Render**       | Alternative production deployment          |
+| **Vite**         | Build tool                                 |
+| **Git & GitHub** | Version control and source code management |
+
+### Production URLs
+
+* **Netlify:** https://candid-queijadas-3e772a.netlify.app/
+* **Render:** https://sri-kaveri-ice-plant.onrender.com
+
+Both deployments are generated from the same GitHub project.
 
 ---
+
 
 # 📌 Project Overview
 
