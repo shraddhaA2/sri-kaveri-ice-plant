@@ -5,9 +5,6 @@
 ## A modern commercial website for Sri Kaveri Ice Plant
 
 🌐 **Live Website:**
-https://candid-queijadas-3e772a.netlify.app/
-
-🚀 **Alternative Deployment:**
 https://sri-kaveri-ice-plant.onrender.com
 
 📦 **Source Code:**
@@ -19,24 +16,21 @@ https://github.com/shraddhaA2/sri-kaveri-ice-plant
 
 # 🚀 Deployment
 
-The application is deployed as a production-ready React application using **Netlify** and **Render**, with the source code maintained on GitHub.
+The application is deployed as a production-ready React application using **Render**, with the source code maintained on GitHub.
 
-| Platform         | Purpose                                    |
-| ---------------- | ------------------------------------------ |
-| **Netlify**      | Primary production deployment              |
-| **Render**       | Alternative production deployment          |
-| **Vite**         | Build tool                                 |
-| **Git & GitHub** | Version control and source code management |
+| Platform        | Tool         |
+| --------------- | ------------ |
+| Deployment      | Render       |
+| Build Tool      | Vite         |
+| Version Control | Git & GitHub |
 
-### Production URLs
+### 🌐 Live Website
 
-* **Netlify:** https://candid-queijadas-3e772a.netlify.app/
-* **Render:** https://sri-kaveri-ice-plant.onrender.com
+**https://sri-kaveri-ice-plant.onrender.com**
 
-Both deployments are generated from the same GitHub project.
+The website is automatically deployed from the `main` branch of the GitHub repository.
 
 ---
-
 
 # 📌 Project Overview
 
@@ -44,18 +38,18 @@ Both deployments are generated from the same GitHub project.
 
 The website provides a professional digital presence for the company by showcasing:
 
-- Products
-- Manufacturing capabilities
-- Quality standards
-- Industries served
-- Customer enquiry channels
+* Products
+* Manufacturing capabilities
+* Quality standards
+* Industries served
+* Customer enquiry channels
 
 The project focuses on creating a premium industrial brand experience with:
 
-- Clean user interface
-- Smooth animations
-- Responsive layouts
-- Easy customer communication
+* Clean user interface
+* Smooth animations
+* Responsive layouts
+* Easy customer communication
 
 This project represents a real-world commercial website developed and deployed for an industrial business.
 
@@ -73,48 +67,48 @@ The website was designed to transform traditional offline marketing into a moder
 
 ## 🎨 Modern UI/UX
 
-- Premium industrial-themed design
-- Clean and professional layout
-- Smooth animations and transitions
-- Responsive design for all screen sizes
-- User-friendly navigation
+* Premium industrial-themed design
+* Clean and professional layout
+* Smooth animations and transitions
+* Responsive design for all screen sizes
+* User-friendly navigation
 
 ---
 
 ## 🏭 Business Showcase
 
-- Company introduction section
-- Product showcase
-- Quality assurance information
-- Industries served section
-- Brand-focused presentation
+* Company introduction section
+* Product showcase
+* Quality assurance information
+* Industries served section
+* Brand-focused presentation
 
 ---
 
 ## 📱 Customer Experience
 
-- Mobile-friendly interface
-- Easy navigation
-- WhatsApp enquiry integration
-- Contact section for customer communication
+* Mobile-friendly interface
+* Easy navigation
+* WhatsApp enquiry integration
+* Contact section for customer communication
 
 ---
 
 ## ⚡ Performance
 
-- Optimized production build
-- Fast loading performance
-- Component-based architecture
-- SEO-friendly structure
+* Optimized Vite production build
+* Fast loading performance
+* Component-based architecture
+* Responsive frontend architecture
 
 ---
 
 ## 🌐 Additional Features
 
-- Multi-language support
-- Reusable React components
-- Type-safe development using TypeScript
-- Modern frontend architecture
+* Multi-language support
+* Reusable React components
+* Type-safe development using TypeScript
+* Modern frontend architecture
 
 ---
 
@@ -140,26 +134,26 @@ The website was designed to transform traditional offline marketing into a moder
 
 ## Frontend
 
-| Technology | Purpose |
-|---|---|
-| React.js | UI development |
+| Technology | Purpose                          |
+| ---------- | -------------------------------- |
+| React.js   | UI development                   |
 | TypeScript | Type-safe JavaScript development |
-| Vite | Development and build tool |
-| HTML5 | Page structure |
-| CSS3 | Styling and animations |
-| JavaScript | Client-side functionality |
+| Vite       | Development and build tool       |
+| HTML5      | Page structure                   |
+| CSS3       | Styling and animations           |
+| JavaScript | Client-side functionality        |
 
 ---
 
 ## Tools & Deployment
 
-| Tool | Purpose |
-|---|---|
-| Git | Version control |
-| GitHub | Source code management |
+| Tool    | Purpose                 |
+| ------- | ----------------------- |
+| Git     | Version control         |
+| GitHub  | Source code management  |
 | VS Code | Development environment |
-| npm | Package management |
-| Netlify | Website deployment |
+| npm     | Package management      |
+| Render  | Website deployment      |
 
 ---
 
@@ -169,23 +163,24 @@ The website was designed to transform traditional offline marketing into a moder
 
 Responsibilities:
 
-- Designed and developed the complete website UI.
-- Created reusable React components.
-- Implemented responsive layouts for desktop, tablet, and mobile devices.
-- Developed multilingual content architecture.
-- Integrated WhatsApp enquiry functionality.
-- Managed production build and deployment.
+* Designed and developed the complete website UI.
+* Created reusable React components.
+* Implemented responsive layouts for desktop, tablet, and mobile devices.
+* Developed multilingual content architecture.
+* Integrated WhatsApp enquiry functionality.
+* Managed production build and deployment using Render.
 
 ---
 
 # 🏗️ Development Highlights
 
-- Developed a complete industrial business website from scratch.
-- Built modular React components for better maintainability.
-- Implemented responsive design principles.
-- Created reusable data-driven content structures.
-- Optimized the website using Vite production builds.
-- Delivered a production-ready commercial website.
+* Developed a complete industrial business website from scratch.
+* Built modular React components for better maintainability.
+* Implemented responsive design principles.
+* Created reusable data-driven content structures.
+* Optimized the website using Vite production builds.
+* Deployed the production application using Render.
+* Delivered a production-ready commercial website.
 
 ---
 
@@ -234,12 +229,12 @@ sri-kaveri-ice-plant/
 
 Planned improvements:
 
-- Online order management system
-- Admin dashboard for product updates
-- Customer enquiry management system
-- Google Maps integration
-- Customer testimonials section
-- Product catalogue download option
+* Online order management system
+* Admin dashboard for product updates
+* Customer enquiry management system
+* Google Maps integration
+* Customer testimonials section
+* Product catalogue download option
 
 ---
 
@@ -252,5 +247,7 @@ This project was developed for **Sri Kaveri Ice Plant** for commercial use.
 <div align="center">
 
 ⭐ Developed with React.js, TypeScript & Vite
+
+🌐 **Live:** https://sri-kaveri-ice-plant.onrender.com
 
 </div>
