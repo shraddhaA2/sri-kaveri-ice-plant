@@ -20,7 +20,7 @@ export const PRODUCTS: Product[] = [
     iconName: 'sailing',
     dimensions: '4 ft × 3 ft blocks',
     purity: 'Multi-stage Purified Water',
-    price: '₹150 / Block',
+    price: '₹170 / Block',
     moq: '10 Blocks',
     weight: '100 KG'
   },
