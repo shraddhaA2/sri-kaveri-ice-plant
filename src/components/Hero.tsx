@@ -142,7 +142,7 @@ export default function Hero({ lang, onEnquiryClick, onContactClick }: HeroProps
                   <span className="font-mono text-4xs uppercase text-cyan-400 tracking-wider font-bold block">
                     {lang === 'en' ? 'PROMINENT RATE' : 'ವಿಶೇಷ ದರ'}
                   </span>
-                  <span className="font-sans text-2xl font-black text-white">₹150 <span className="text-xs font-normal text-slate-300">/ Block</span></span>
+                  <span className="font-sans text-2xl font-black text-white">₹170 <span className="text-xs font-normal text-slate-300">/ Block</span></span>
                 </div>
                 <div className="text-right border-l border-white/10 pl-4">
                   <span className="font-mono text-4xs uppercase text-slate-400 tracking-wider font-bold block">

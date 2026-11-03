@@ -57,7 +57,7 @@ export default function Contact({ lang, preselectedProductType }: ContactProps) 
   const productMeta: Record<string, { name: string; price: number | null; unit: string; minQty: number | null }> = {
     'block-ice': { 
       name: lang === 'en' ? '100 KG Ice Blocks' : '100 KG ಐಸ್ ಬ್ಲಾಕ್ಸ್', 
-      price: 150, 
+      price: 170, 
       unit: lang === 'en' ? 'Blocks' : 'ಬ್ಲಾಕ್‌ಗಳು', 
       minQty: 10 
     },
@@ -561,7 +561,7 @@ _Enquiry requested via Website._`;
                           required
                         >
                           <option value="block-ice">
-                            {lang === 'en' ? '100 KG Ice Blocks (₹150 / Block)' : '100 KG ಐಸ್ ಬ್ಲಾಕ್ಸ್ (₹150 / ಬ್ಲಾಕ್)'}
+                            {lang === 'en' ? '100 KG Ice Blocks (₹170 / Block)' : '100 KG ಐಸ್ ಬ್ಲಾಕ್ಸ್ (₹170 / ಬ್ಲಾಕ್)'}
                           </option>
                           <option value="crushed-ice">
                             {lang === 'en' ? 'Crushed Ice (Price on Request)' : 'ಪುಡಿ ಐಸ್ (ದರ ವಿನಂತಿಯ ಮೇರೆಗೆ)'}
