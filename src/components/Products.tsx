@@ -18,7 +18,7 @@ export default function Products({ lang, onInquiry }: ProductsProps) {
       tag: t.products.block.tag,
       description: t.products.block.desc,
       image: 'https://lh3.googleusercontent.com/aida-public/AB6AXuCeIlsnmp4b8xlSCqcLbdItBMqoLMuPOwEXCOmCGiBsNCw1mKzankBcd7VFA0aACxH-hJIsmgmmrwMynfXeMJANmvgA6tbquc4S3AYWWYwWO_fsYiRS6K7m3YbPAOeuuZ6IJ890vRihXaLwmy0B---KfYOcn-nnJwMQmohMXyyhkymqAkP1f8FaCh2nMCcJ_LOMVqqse7Mst6lvadSomYRWcSqLoJ2Ctsnx-VzBLWjBdDpSEfTdDojN',
-      price: lang === 'en' ? '₹150 per block' : '₹150 ಪ್ರತಿ ಬ್ಲಾಕ್',
+      price: lang === 'en' ? '₹170 per block' : '₹150 ಪ್ರತಿ ಬ್ಲಾಕ್',
       weight: '100 KG',
       moq: lang === 'en' ? '10 Blocks' : '10 ಬ್ಲಾಕ್‌ಗಳು',
       size: '4 ft × 3 ft',
