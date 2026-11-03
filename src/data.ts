@@ -56,7 +56,7 @@ export const PRODUCTS: Product[] = [
     iconName: 'check_circle',
     dimensions: 'Standard food-grade cubes',
     purity: 'Reverse Osmosis Purified',
-    price: '₹150 / Bag',
+    price: '₹170 / Bag',
     moq: '15 Bags',
     weight: '20 KG Bag'
   }
